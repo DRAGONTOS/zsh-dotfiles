@@ -70,7 +70,8 @@ xhost +si:localuser:$USER > /dev/null 2>&1
 PATH=$PATH:/home/$USER/.local/bin
 
 ## Fix pip
-source $HOME/.local/share/virtualenv/bin/activate
+#source $HOME/.local/share/virtualenv/bin/activate
+
 
 #
 # Extra Path options
